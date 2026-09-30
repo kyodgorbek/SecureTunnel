@@ -105,7 +105,7 @@ jobs:
       - name: 🍏 Set up Xcode 16
         uses: maxim-lobanov/setup-xcode@v1
         with:
-          xcode-version: '16.0'
+          xcode-version: '16.2'
 
       - name: 🛠️ Build iOS Multiplatform Frameworks & Tests
         run: ./gradlew :sharedLogic:compileKotlinIosSimulatorArm64 :sharedUI:compileKotlinIosSimulatorArm64 :sharedLogic:linkDebugFrameworkIosSimulatorArm64 --stacktrace
