@@ -1,0 +1,9 @@
+## Example local.properties
+## Copy this file to local.properties and add your own credentials.
+## local.properties is ignored by git to protect your keys.
+
+sdk.dir=C:\\Users\\<YourUsername>\\AppData\\Local\\Android\\Sdk
+
+# Groq AI Assistant (Free API key from https://console.groq.com)
+GROQ_API_KEY=gsk_your_groq_api_key_here
+GROQ_MODEL=llama-3.3-70b-versatile

@@ -1,0 +1,51 @@
+# =========================================================================
+# SecureTunnel .gitignore
+# =========================================================================
+
+# Secrets & API Keys (DO NOT COMMIT)
+local.properties
+secrets.properties
+*.env
+.env.*
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+google-services.json
+GoogleService-Info.plist
+
+# Gradle & Kotlin Build Artifacts
+.gradle/
+build/
+**/build/
+!src/**/build/
+.kotlin/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.log
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Xcode & Apple Artifacts
+xcuserdata/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+DerivedData/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Node / JS
+node_modules/
